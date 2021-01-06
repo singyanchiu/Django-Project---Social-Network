@@ -1,7 +1,6 @@
 # Django project - Social Network
 A simple social network web app using Django. This is a project assignment for CS50 Web Programming with Javascript and Python.
-
-
+![alt text](https://github.com/singyanchiu/socialnetwork/blob/master/screenshot.PNG)
 
 ## Launch
 1. Run `python manage.py runserver` to launch server.
