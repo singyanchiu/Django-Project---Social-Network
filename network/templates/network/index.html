@@ -1,0 +1,15 @@
+{% extends "network/layout.html" %}
+
+{% block body %}
+    {% if user.is_authenticated %}
+    <form id="compose-form">
+        {% csrf_token %}
+        <div><textarea id="post-body" placeholder="Write your post here..." rows="6"></textarea></div>
+        <input type="submit" class="btn btn-primary"/>
+    </form>
+    <hr>
+    {% endif %}
+    <div id="profile-view"></div>
+    <div id="posts-view-javascript"> -->
+    </div>
+{% endblock %}

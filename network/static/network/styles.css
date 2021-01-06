@@ -1,0 +1,99 @@
+body{
+    font-family: sans-serif;
+}
+
+textarea {
+    width: 90%;
+}
+
+
+.form-control.padding{
+    padding: 10px;
+    margin: 5px;
+}
+
+.timestamp {
+    float: top;
+    font-size: 13px;
+    color: lightslategray;
+}
+
+
+.title {
+    float: top;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+@keyframes highlight {
+    0% {
+      background-color: red;
+    }
+    100 {
+      background-color: white;
+    }
+  }
+
+.user {
+    float: top;
+    font-size: 15px;
+    /* animation: highlight 500ms ease-out; */
+}
+
+.user:active {
+    outline: -webkit-focus-ring-color auto 1px;
+}
+
+.edit {
+    float: top;
+    font-weight: bold;
+    font-size: 17px;
+    color: grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.body {
+    white-space: pre-wrap;
+    float: top;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: blue;
+}
+
+.container {
+    padding: 9px;
+}
+
+.post-box {
+    border: solid 1px;
+    border-color: gray;
+    padding: 5px;
+    margin: 8px;
+    width: 90%;
+}
+
+.likes {
+    float: top;
+    color: rgb(190, 14, 14);
+    font-size: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.likes-big {
+    float: top;
+    color: rgb(190, 14, 14);
+    font-size: 20px;
+    line-height: 110%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* #profile-view {
+    background-color: rgb(219, 219, 219);
+} */
